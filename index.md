@@ -1,4 +1,3 @@
-# Izzat Bin Ahmad Adly
 **Ph.D. Candidate in Economics** | University of Nebraska-Lincoln  
 *Research Interests: Belief Formation, Housing Market, Econometric Methods*
 

@@ -1,13 +1,12 @@
 ---
 ---
 
-/* 1. VARIABLE OVERRIDES (Tell the theme engine to use periwinkle) */
+/* 1. INJECT VARIABLES INTO THE ENGINE */
 $background-color: #D1D1EB;
 $masthead-background-color: #D1D1EB;
 $masthead-link-color: #1C1C1C;
-$masthead-link-color-hover: #1A3C6B;
 
-/* 2. CORE THEME IMPORTS */
+/* 2. THEME IMPORTS */
 @import
     "vendor/breakpoint/breakpoint",
     "themes",
@@ -35,36 +34,37 @@ $masthead-link-color-hover: #1A3C6B;
     "vendor/font-awesome/brands"
 ;
 
-/* 3. CSS BRUTE FORCE OVERRIDE (For the remaining white bar) */
+/* 3. THE NUCLEAR OPTION */
 
-/* Target every possible layer of the header bar */
-header.masthead,
-.masthead,
-.masthead__inner-wrap,
-.masthead__menu,
-nav.greedy-nav,
-.greedy-nav,
-.greedy-nav button,
-#site-nav {
+/* Target the header and force it to periwinkle */
+.masthead {
   background-color: #D1D1EB !important;
-  background: #D1D1EB !important;
-  border-bottom: none !important;
+}
+
+/* FORCE every child of the header to be transparent so the periwinkle shows through */
+.masthead *, 
+.masthead__inner-wrap, 
+.masthead__menu, 
+nav.greedy-nav, 
+.greedy-nav, 
+.greedy-nav ul, 
+.greedy-nav a, 
+.greedy-nav button {
+  background-color: transparent !important;
+  background: transparent !important;
+  border: none !important;
   box-shadow: none !important;
 }
 
-/* Ensure all header text and icons are the dark gray contrast color */
+/* Ensure text remains dark and readable */
 .site-title, 
 .masthead__menu-item a, 
-.author__name, 
-.author__bio,
-.greedy-nav a,
-.greedy-nav button,
-.greedy-nav__toggle,
-i.fas {
+.greedy-nav a, 
+.greedy-nav button {
   color: #1C1C1C !important;
 }
 
-/* Page background cleanup */
-html, body, .initial-content, .page__inner-wrap, .archive {
+/* Force the body and all main containers to match */
+html, body, #main, .initial-content, .page__inner-wrap {
   background-color: #D1D1EB !important;
 }

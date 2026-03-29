@@ -6,13 +6,13 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "contrast" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "air" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Izzat Adly"
 title_separator          : "-"
 name                     : &name "Izzat Ahmad Adly"
 description              : &description "Ph.D. Candidate in Economics"
 url                      : "https://izzatadly.github.io" 
-baseurl                  : "izzatadly_cv" 
+baseurl                  : "" 
 repository               : "izzatadly/izzatadly.github.io" # Fixed repository path
 
 # Site Author - Controls the sidebar content.

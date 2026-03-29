@@ -41,3 +41,31 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+/* --- FINAL OVERRIDE BLOCK --- */
+
+/* 1. Force the background to Dark Purple and text to White/Lavender */
+html, body, .masthead, .sidebar, .page__footer, .page__inner-wrap, .archive, .initial-content {
+  background-color: #1a0a2e !important; 
+  color: #f1eaff !important;
+}
+
+/* 2. Fix the Sidebar and Title Colors */
+.sidebar, .masthead__menu-item a, .site-title, .nav__items a, .author__name, .author__bio {
+  color: #ffffff !important;
+}
+
+/* 3. Hide the Toggle Button (Moon/Sun) */
+#light-toggle, .navbar-nav .nav-item .light-toggle, .moon, .sun, button.light-toggle {
+  display: none !important;
+}
+
+/* 4. Make links clear and highlighted */
+a, .page__content a {
+  color: #bb86fc !important;
+  text-decoration: underline;
+}
+
+/* 5. Fix the horizontal lines */
+hr {
+  border-top: 1px solid #3d1b5d !important;
+}

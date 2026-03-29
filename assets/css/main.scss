@@ -41,3 +41,22 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+/* --- PERMANENT DARK MODE LOCK --- */
+
+/* 1. Hide the light/dark toggle button from the menu */
+#light-toggle, 
+.navbar-nav .nav-item .light-toggle, 
+.moon, .sun {
+  display: none !important;
+}
+
+/* 2. Force the site to use the dark theme variables by default */
+/* (This works if your theme uses the 'dark' class on the body) */
+body {
+  background-color: #1c1c1c !important; /* Your current dark gray */
+  color: #eeeeee !important;            /* Light text */
+}
+
+.masthead, .sidebar, .page__footer {
+  background-color: #1c1c1c !important;
+}

@@ -95,3 +95,30 @@ a, .page__content a {
 .masthead__menu-item a, .site-title {
   text-decoration: none;
 }
+
+/* 5. UNIFY THE FOOTER (THE BOTTOM) */
+
+/* Force the footer background to match the periwinkle */
+.page__footer, 
+.page__footer-follow, 
+.page__footer-copyright {
+  background-color: #D1D1EB !important;
+  border-top: 1px solid rgba(28, 28, 28, 0.1) !important; /* Subtle divider line */
+}
+
+/* Force footer text and icons to be black */
+.page__footer, 
+.page__footer p, 
+.page__footer-follow a, 
+.page__footer-copyright {
+  color: #000000 !important;
+}
+
+/* Ensure social media icons in the footer are also black */
+.page__footer-follow i {
+  color: #000000 !important;
+}
+
+.page__footer-copyright {
+  display: none !important;
+}

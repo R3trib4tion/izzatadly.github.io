@@ -6,7 +6,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "purple" # Changed from "sunrise" to "purple"
+site_theme               : "default" # Changed from "sunrise" to "purple"
 title                    : "Izzat Bin Ahmad Adly"
 title_separator          : "-"
 name                     : &name "Izzat Bin Ahmad Adly"

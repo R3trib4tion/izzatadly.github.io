@@ -6,8 +6,8 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # Changed from "sunrise" to "purple"
-title                    : "Izzat Bin Ahmad Adly"
+site_theme               : "dark" # Changed from "sunrise" to "purple"
+title                    : "Site Title"
 title_separator          : "-"
 name                     : &name "Izzat Bin Ahmad Adly"
 description              : &description "Ph.D. Candidate in Economics at UNL"

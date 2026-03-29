@@ -1,7 +1,13 @@
 ---
 ---
 
-/* 1. Original Theme Imports (Keep these exactly as they are) */
+/* 1. VARIABLE OVERRIDES (Tell the theme engine to use periwinkle) */
+$background-color: #D1D1EB;
+$masthead-background-color: #D1D1EB;
+$masthead-link-color: #1C1C1C;
+$masthead-link-color-hover: #1A3C6B;
+
+/* 2. CORE THEME IMPORTS */
 @import
     "vendor/breakpoint/breakpoint",
     "themes",
@@ -29,29 +35,36 @@
     "vendor/font-awesome/brands"
 ;
 
-/* 1. Force the periwinkle color on ALL header layers and the background */
-html, 
-body, 
-.masthead, 
-.masthead__inner-wrap, 
+/* 3. CSS BRUTE FORCE OVERRIDE (For the remaining white bar) */
+
+/* Target every possible layer of the header bar */
+header.masthead,
+.masthead,
+.masthead__inner-wrap,
 .masthead__menu,
-.greedy-nav,
 nav.greedy-nav,
-.page__inner-wrap,
-.initial-content,
-.archive {
-  background-color: #D1D1EB !important; 
+.greedy-nav,
+.greedy-nav button,
+#site-nav {
+  background-color: #D1D1EB !important;
   background: #D1D1EB !important;
-}
-
-/* 2. Remove any remaining white borders or shadows from the menu */
-.greedy-nav {
-  border: none !important;
-  box-shadow: none !important;
-}
-
-/* Remove the "shadow" or border that sometimes appears under the white bar */
-.masthead {
   border-bottom: none !important;
   box-shadow: none !important;
+}
+
+/* Ensure all header text and icons are the dark gray contrast color */
+.site-title, 
+.masthead__menu-item a, 
+.author__name, 
+.author__bio,
+.greedy-nav a,
+.greedy-nav button,
+.greedy-nav__toggle,
+i.fas {
+  color: #1C1C1C !important;
+}
+
+/* Page background cleanup */
+html, body, .initial-content, .page__inner-wrap, .archive {
+  background-color: #D1D1EB !important;
 }

@@ -12,7 +12,6 @@
     "vendor/breakpoint/breakpoint",
 
     "themes",
-    "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
     "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
 
     "include/mixins",
@@ -41,31 +40,3 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
-/* --- PERMANENT DARK PURPLE OVERRIDE --- */
-
-/* 1. Target the entire background and base text */
-html, body, .masthead, .sidebar, .page__footer, .page__inner-wrap, .archive {
-  background-color: #1a0a2e !important; /* Dark Purple */
-  color: #f1eaff !important;            /* Soft White/Lavender Text */
-}
-
-/* 2. Fix the Sidebar and Navigation Links */
-.sidebar, .masthead__menu-item a, .site-title, .nav__items a {
-  color: #f1eaff !important;
-}
-
-/* 3. Highlight Links in a bright Purple */
-a, .page__content a {
-  color: #9b67f1 !important;
-  text-decoration: underline;
-}
-
-/* 4. Hide the Light/Dark switch (since we are locking it to Dark) */
-.search-content, #light-toggle, .navbar-nav .nav-item .light-toggle {
-  display: none !important;
-}
-
-/* 5. Ensure horizontal lines match the theme */
-hr {
-  border-top: 1px solid #3d1b5d !important;
-}

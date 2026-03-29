@@ -41,33 +41,3 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
-/* --- CUSTOM MASTHEAD CONTRAST --- */
-
-.masthead {
-  /* This changes the bar to a deep professional purple */
-  background-color: #2e004f !important; 
-  border-bottom: 2px solid #1a002d;
-}
-
-.site-title {
-  /* Makes your name white so it stands out */
-  color: #ffffff !important;
-  font-weight: bold;
-}
-
-.masthead__menu-item a {
-  /* Makes the links (Research, CV) white */
-  color: #ffffff !important;
-  opacity: 0.85;
-}
-
-.masthead__menu-item a:hover {
-  /* Adds a soft lavender glow when you hover over links */
-  color: #d1b3ff !important;
-  opacity: 1;
-}
-
-/* Optional: Adds a small 'Husker' red accent line at the very top */
-.masthead {
-  border-top: 3px solid #d00000;
-}

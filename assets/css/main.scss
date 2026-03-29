@@ -41,3 +41,26 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+:root {
+  /* This forces the background to a deep, scholarly eggplant/purple */
+  --global-bg-color: #1a0a2e !important; 
+  --background-color: #1a0a2e !important;
+  
+  /* This ensures your text is a soft lavender/white so it's easy to read */
+  --global-text-color: #f1eaff !important;
+  --text-color: #f1eaff !important;
+  
+  /* Links will be a bright highlight purple */
+  --global-theme-color: #9b67f1 !important;
+}
+
+/* Hide the Light/Dark toggle button entirely */
+#light-toggle, .navbar-nav .nav-item .light-toggle {
+  display: none !important;
+}
+
+/* Ensure the sidebar/cards also match the dark purple */
+.card, .sidebar, .masthead {
+  background-color: #261042 !important;
+  border-color: #3d1b5d !important;
+}

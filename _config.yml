@@ -6,11 +6,11 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "contrast" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Site Title"
 title_separator          : "-"
 name                     : &name "Izzat Bin Ahmad Adly"
-description              : &description "Ph.D. Candidate in Economics at UNL"
+description              : &description "Ph.D. Candidate in Economics"
 url                      : "https://izzatadly.github.io" 
 baseurl                  : "" 
 repository               : "izzatadly/izzatadly.github.io" # Fixed repository path

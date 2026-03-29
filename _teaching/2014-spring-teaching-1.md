@@ -4,8 +4,6 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2025-fall-teaching-1
 venue: "University of Nebraska-Lincoln, Economics"
-date: 2014-01-01
-location: "City, Country"
+date: 2025-08
+location: "Lincoln, United States"
 ---
-
-This is a description of a teaching experience. You can use markdown like any other post.

@@ -12,7 +12,7 @@ title_separator          : "-"
 name                     : &name "Izzat Ahmad Adly"
 description              : &description "Ph.D. Candidate in Economics"
 url                      : "https://izzatadly.github.io" 
-baseurl                  : "" 
+baseurl                  : "izzatadly" 
 repository               : "izzatadly/izzatadly.github.io" # Fixed repository path
 
 # Site Author - Controls the sidebar content.

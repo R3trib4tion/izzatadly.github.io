@@ -11,7 +11,7 @@ main:
   - title: "CV"
     url: /cv/
   - title: "Research"
-    url: /publications/
+    url: /Research Papers/
   - title: "Teaching"
     url: /teaching/
   - title: "Files"         # This is the new tab

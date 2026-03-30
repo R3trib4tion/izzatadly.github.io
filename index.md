@@ -4,7 +4,7 @@
 ---
 
 ## Education
-* **Ph.D. Economics**, University of Nebraska-Lincoln (Expected 2026)
+* **Ph.D. Economics**, University of Nebraska-Lincoln (Expected 2028)
 * **M.A. Economics**, International University of Japan (2023)
 * **B.S. Economics**, University of Nebraska-Lincoln (2021)
 

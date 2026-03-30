@@ -43,8 +43,8 @@ publication_category:
     title: 'Books'
   manuscripts:
     title: 'Journal Articles'    
-  conferences:
-    title: 'Conference Papers'
+  working:
+    title: 'Working Papers'
 
 # Site Settings
 teaser                   :  
